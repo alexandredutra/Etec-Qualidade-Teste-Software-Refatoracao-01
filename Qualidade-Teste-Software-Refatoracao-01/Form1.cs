@@ -58,7 +58,6 @@ namespace Qualidade_Teste_Software_Refatoracao_01
                 desconto = 0;
             }
 
-            // Acréscimo se for parcelado (outra regra)
             decimal acrescimo = 0;
             if (rbCartaoCredito.Checked && numParcelas.Value > 3)
             {
