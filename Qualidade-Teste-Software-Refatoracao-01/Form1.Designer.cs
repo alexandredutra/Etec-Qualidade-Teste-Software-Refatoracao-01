@@ -41,9 +41,10 @@
             this.rbPix = new System.Windows.Forms.RadioButton();
             this.rbCartaoCredito = new System.Windows.Forms.RadioButton();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.btnFinalizar = new System.Windows.Forms.Button();
             this.numParcelas = new System.Windows.Forms.NumericUpDown();
+            this.btnFinalizar = new System.Windows.Forms.Button();
             this.lblResumo = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numParcelas)).BeginInit();
             this.SuspendLayout();
@@ -52,7 +53,8 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, 27);
+            this.label1.Location = new System.Drawing.Point(19, 37);
+            this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(129, 16);
             this.label1.TabIndex = 0;
@@ -61,51 +63,57 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(15, 60);
+            this.label2.Location = new System.Drawing.Point(24, 82);
+            this.label2.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(85, 16);
+            this.label2.Size = new System.Drawing.Size(125, 22);
             this.label2.TabIndex = 1;
             this.label2.Text = "Cliente Nome";
             // 
             // txtClienteNome
             // 
             this.txtClienteNome.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtClienteNome.Location = new System.Drawing.Point(18, 80);
+            this.txtClienteNome.Location = new System.Drawing.Point(28, 110);
+            this.txtClienteNome.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.txtClienteNome.Name = "txtClienteNome";
-            this.txtClienteNome.Size = new System.Drawing.Size(224, 22);
+            this.txtClienteNome.Size = new System.Drawing.Size(351, 29);
             this.txtClienteNome.TabIndex = 2;
             // 
             // txtClienteCpf
             // 
             this.txtClienteCpf.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtClienteCpf.Location = new System.Drawing.Point(261, 80);
+            this.txtClienteCpf.Location = new System.Drawing.Point(410, 110);
+            this.txtClienteCpf.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.txtClienteCpf.Name = "txtClienteCpf";
-            this.txtClienteCpf.Size = new System.Drawing.Size(224, 22);
+            this.txtClienteCpf.Size = new System.Drawing.Size(351, 29);
             this.txtClienteCpf.TabIndex = 4;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(258, 60);
+            this.label3.Location = new System.Drawing.Point(405, 82);
+            this.label3.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(77, 16);
+            this.label3.Size = new System.Drawing.Size(113, 22);
             this.label3.TabIndex = 3;
             this.label3.Text = "Cliente CPF";
             // 
             // txtValorBruto
             // 
             this.txtValorBruto.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtValorBruto.Location = new System.Drawing.Point(18, 149);
+            this.txtValorBruto.Location = new System.Drawing.Point(28, 205);
+            this.txtValorBruto.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.txtValorBruto.Name = "txtValorBruto";
-            this.txtValorBruto.Size = new System.Drawing.Size(224, 22);
+            this.txtValorBruto.Size = new System.Drawing.Size(351, 29);
             this.txtValorBruto.TabIndex = 6;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(15, 129);
+            this.label4.Location = new System.Drawing.Point(24, 177);
+            this.label4.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(71, 16);
+            this.label4.Size = new System.Drawing.Size(103, 22);
             this.label4.TabIndex = 5;
             this.label4.Text = "Valor Bruto";
             // 
@@ -116,26 +124,29 @@
             "Comum",
             "Estudante",
             "VIP"});
-            this.cmbTipoCliente.Location = new System.Drawing.Point(519, 80);
+            this.cmbTipoCliente.Location = new System.Drawing.Point(816, 110);
+            this.cmbTipoCliente.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.cmbTipoCliente.Name = "cmbTipoCliente";
-            this.cmbTipoCliente.Size = new System.Drawing.Size(159, 24);
+            this.cmbTipoCliente.Size = new System.Drawing.Size(248, 30);
             this.cmbTipoCliente.TabIndex = 9;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(516, 60);
+            this.label6.Location = new System.Drawing.Point(811, 82);
+            this.label6.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(75, 16);
+            this.label6.Size = new System.Drawing.Size(111, 22);
             this.label6.TabIndex = 10;
             this.label6.Text = "Cliente Tipo";
             // 
             // rbDinheiro
             // 
             this.rbDinheiro.AutoSize = true;
-            this.rbDinheiro.Location = new System.Drawing.Point(16, 40);
+            this.rbDinheiro.Location = new System.Drawing.Point(25, 55);
+            this.rbDinheiro.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.rbDinheiro.Name = "rbDinheiro";
-            this.rbDinheiro.Size = new System.Drawing.Size(72, 20);
+            this.rbDinheiro.Size = new System.Drawing.Size(98, 26);
             this.rbDinheiro.TabIndex = 11;
             this.rbDinheiro.TabStop = true;
             this.rbDinheiro.Text = "Dinheiro";
@@ -144,9 +155,10 @@
             // rbPix
             // 
             this.rbPix.AutoSize = true;
-            this.rbPix.Location = new System.Drawing.Point(107, 40);
+            this.rbPix.Location = new System.Drawing.Point(168, 55);
+            this.rbPix.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.rbPix.Name = "rbPix";
-            this.rbPix.Size = new System.Drawing.Size(44, 20);
+            this.rbPix.Size = new System.Drawing.Size(54, 26);
             this.rbPix.TabIndex = 12;
             this.rbPix.TabStop = true;
             this.rbPix.Text = "Pix";
@@ -155,9 +167,10 @@
             // rbCartaoCredito
             // 
             this.rbCartaoCredito.AutoSize = true;
-            this.rbCartaoCredito.Location = new System.Drawing.Point(183, 40);
+            this.rbCartaoCredito.Location = new System.Drawing.Point(288, 55);
+            this.rbCartaoCredito.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.rbCartaoCredito.Name = "rbCartaoCredito";
-            this.rbCartaoCredito.Size = new System.Drawing.Size(108, 20);
+            this.rbCartaoCredito.Size = new System.Drawing.Size(151, 26);
             this.rbCartaoCredito.TabIndex = 13;
             this.rbCartaoCredito.TabStop = true;
             this.rbCartaoCredito.Text = "Cartao Crédito";
@@ -169,28 +182,21 @@
             this.groupBox1.Controls.Add(this.rbDinheiro);
             this.groupBox1.Controls.Add(this.rbCartaoCredito);
             this.groupBox1.Controls.Add(this.rbPix);
-            this.groupBox1.Location = new System.Drawing.Point(18, 188);
+            this.groupBox1.Location = new System.Drawing.Point(28, 258);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(422, 90);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(5, 4, 5, 4);
+            this.groupBox1.Size = new System.Drawing.Size(663, 124);
             this.groupBox1.TabIndex = 14;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Forma Pagamento";
             // 
-            // btnFinalizar
-            // 
-            this.btnFinalizar.Location = new System.Drawing.Point(494, 215);
-            this.btnFinalizar.Name = "btnFinalizar";
-            this.btnFinalizar.Size = new System.Drawing.Size(184, 46);
-            this.btnFinalizar.TabIndex = 15;
-            this.btnFinalizar.Text = "Finalizar";
-            this.btnFinalizar.UseVisualStyleBackColor = true;
-            this.btnFinalizar.Click += new System.EventHandler(this.btnFinalizar_Click);
-            // 
             // numParcelas
             // 
-            this.numParcelas.Location = new System.Drawing.Point(316, 40);
+            this.numParcelas.Location = new System.Drawing.Point(497, 55);
+            this.numParcelas.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.numParcelas.Name = "numParcelas";
-            this.numParcelas.Size = new System.Drawing.Size(83, 22);
+            this.numParcelas.Size = new System.Drawing.Size(130, 29);
             this.numParcelas.TabIndex = 14;
             this.numParcelas.Value = new decimal(new int[] {
             1,
@@ -198,21 +204,44 @@
             0,
             0});
             // 
+            // btnFinalizar
+            // 
+            this.btnFinalizar.Location = new System.Drawing.Point(775, 295);
+            this.btnFinalizar.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
+            this.btnFinalizar.Name = "btnFinalizar";
+            this.btnFinalizar.Size = new System.Drawing.Size(289, 63);
+            this.btnFinalizar.TabIndex = 15;
+            this.btnFinalizar.Text = "Finalizar";
+            this.btnFinalizar.UseVisualStyleBackColor = true;
+            this.btnFinalizar.Click += new System.EventHandler(this.btnFinalizar_Click);
+            // 
             // lblResumo
             // 
             this.lblResumo.AutoSize = true;
             this.lblResumo.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblResumo.Location = new System.Drawing.Point(22, 297);
+            this.lblResumo.Location = new System.Drawing.Point(35, 408);
+            this.lblResumo.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.lblResumo.Name = "lblResumo";
             this.lblResumo.Size = new System.Drawing.Size(78, 17);
             this.lblResumo.TabIndex = 16;
             this.lblResumo.Text = "lblResumo";
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(762, 189);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(212, 58);
+            this.button1.TabIndex = 17;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(743, 336);
+            this.ClientSize = new System.Drawing.Size(1078, 458);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.lblResumo);
             this.Controls.Add(this.btnFinalizar);
             this.Controls.Add(this.groupBox1);
@@ -225,8 +254,8 @@
             this.Controls.Add(this.txtClienteNome);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "Form1";
             this.Text = "Formulários Pedido";
             this.groupBox1.ResumeLayout(false);
@@ -255,6 +284,7 @@
         private System.Windows.Forms.Button btnFinalizar;
         private System.Windows.Forms.NumericUpDown numParcelas;
         private System.Windows.Forms.Label lblResumo;
+        private System.Windows.Forms.Button button1;
     }
 }
 
